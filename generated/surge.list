@@ -1,5 +1,5 @@
 # 针对部分网站显示IP归属地的分流规则
-# anti-ip-attribution surge.list v0.3.1 27ec28a793601988d4cb323cdb0515bb6f6561f9
+# anti-ip-attribution surge.list v0.3.1 74c4899a398b35c2dad48662b823fa7cd16b100e
 # https://github.com/lwd-temp/anti-ip-attribution
 # Surge分流规则
 DOMAIN,httpdns.bilivideo.com,REJECT
@@ -34,23 +34,12 @@ DOMAIN-SUFFIX,wbimg.cn
 DOMAIN-SUFFIX,wbimg.com
 DOMAIN-SUFFIX,sinaimg.cn
 DOMAIN-KEYWORD,weibo
-DOMAIN,tieba.baidu.com
-DOMAIN,tbmsg.baidu.com
-DOMAIN,tb5.bdstatic.com
-DOMAIN,fclog.baidu.com
-DOMAIN,gsp0.baidu.com
-DOMAIN,hm.baidu.com
-DOMAIN,www.baidu.com
-DOMAIN,tiebac.baidu.com
-IP-CIDR,180.76.76.0/24,no-resolve
-DOMAIN,httpsdns.baidu.com
-DOMAIN,c.tieba.baidu.com
-DOMAIN,httpdns.baidu.com
-DOMAIN,httpdns.baidubce.com
 DOMAIN-SUFFIX,zhihu.com
 IP-CIDR,103.41.167.0/24,no-resolve
 IP-CIDR,118.89.204.198/23,REJECT,no-resolve
 IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/40,REJECT,no-resolve
+DOMAIN-SUFFIX,gjfzpt.cn,REJECT
+IP-CIDR,219.143.187.136/32,REJECT,no-resolve
 DOMAIN-KEYWORD,core-c-lq
 DOMAIN-KEYWORD,core-lq
 DOMAIN-KEYWORD,normal-c-lq

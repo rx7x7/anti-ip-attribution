@@ -1,5 +1,5 @@
 # 针对部分网站显示IP归属地的分流规则
-# anti-ip-attribution quantumultx-domesticsocial.list v0.3.1 27ec28a793601988d4cb323cdb0515bb6f6561f9
+# anti-ip-attribution quantumultx-domesticsocial.list v0.3.1 74c4899a398b35c2dad48662b823fa7cd16b100e
 # https://github.com/lwd-temp/anti-ip-attribution
 # QuantumultX分流规则，策略组名称为DomesticSocial
 DOMAIN,httpdns.bilivideo.com,REJECT
@@ -34,23 +34,12 @@ DOMAIN-SUFFIX,wbimg.cn,DomesticSocial
 DOMAIN-SUFFIX,wbimg.com,DomesticSocial
 DOMAIN-SUFFIX,sinaimg.cn,DomesticSocial
 DOMAIN-KEYWORD,weibo,DomesticSocial
-DOMAIN,tieba.baidu.com,DomesticSocial
-DOMAIN,tbmsg.baidu.com,DomesticSocial
-DOMAIN,tb5.bdstatic.com,DomesticSocial
-DOMAIN,fclog.baidu.com,DomesticSocial
-DOMAIN,gsp0.baidu.com,DomesticSocial
-DOMAIN,hm.baidu.com,DomesticSocial
-DOMAIN,www.baidu.com,DomesticSocial
-DOMAIN,tiebac.baidu.com,DomesticSocial
-IP-CIDR,180.76.76.0/24,DomesticSocial
-DOMAIN,httpsdns.baidu.com,DomesticSocial
-DOMAIN,c.tieba.baidu.com,DomesticSocial
-DOMAIN,httpdns.baidu.com,DomesticSocial
-DOMAIN,httpdns.baidubce.com,DomesticSocial
 DOMAIN-SUFFIX,zhihu.com,DomesticSocial
 IP-CIDR,103.41.167.0/24,DomesticSocial
 IP-CIDR,118.89.204.198/23,REJECT
 IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/40,REJECT
+DOMAIN-SUFFIX,gjfzpt.cn,REJECT
+IP-CIDR,219.143.187.136/32,REJECT
 DOMAIN-KEYWORD,core-c-lq,DomesticSocial
 DOMAIN-KEYWORD,core-lq,DomesticSocial
 DOMAIN-KEYWORD,normal-c-lq,DomesticSocial
