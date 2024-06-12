@@ -74,22 +74,22 @@ config:
     - DOMAIN-KEYWORD,weibo
     # ======= 百度贴吧 ======= #
     # 百度贴吧
-    - DOMAIN,tieba.baidu.com # 百度贴吧域名，不存在单独的API域名
-    - DOMAIN,tbmsg.baidu.com # 贴吧私信域名？
-    - DOMAIN,tb5.bdstatic.com # 贴吧不确定用途
-    - DOMAIN,fclog.baidu.com # 百度日志？
-    - DOMAIN,gsp0.baidu.com # 百度追踪？
-    - DOMAIN,hm.baidu.com # 百度统计
-    - DOMAIN,www.baidu.com # 网友提供贴吧IP定位接口
+    #- DOMAIN,tieba.baidu.com # 百度贴吧域名，不存在单独的API域名
+    #- DOMAIN,tbmsg.baidu.com # 贴吧私信域名？
+    #- DOMAIN,tb5.bdstatic.com # 贴吧不确定用途
+    #- DOMAIN,fclog.baidu.com # 百度日志？
+    #- DOMAIN,gsp0.baidu.com # 百度追踪？
+    #- DOMAIN,hm.baidu.com # 百度统计
+    #- DOMAIN,www.baidu.com # 网友提供贴吧IP定位接口
     # Update #32
-    - DOMAIN,tiebac.baidu.com # 贴吧App API域名
+    #- DOMAIN,tiebac.baidu.com # 贴吧App API域名
     # - DOMAIN-KEYWORD,tieba # 极端方案，可能会代理图片CDN
     # issue#35#issuecomment-1438885974
-    - IP-CIDR,180.76.76.0/24 # Public DNS
-    - DOMAIN,httpsdns.baidu.com
-    - DOMAIN,c.tieba.baidu.com
-    - DOMAIN,httpdns.baidu.com
-    - DOMAIN,httpdns.baidubce.com
+    #- IP-CIDR,180.76.76.0/24 # Public DNS
+    #- DOMAIN,httpsdns.baidu.com
+    #- DOMAIN,c.tieba.baidu.com
+    #- DOMAIN,httpdns.baidu.com
+    #- DOMAIN,httpdns.baidubce.com
     # ======= 微信 ======= #
     # 微信通用
     #- DOMAIN,szshort.weixin.qq.com # 用途未知
@@ -113,8 +113,8 @@ config:
     - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/40,REJECT # 知乎 HTTPDNS (IPv6)
     # ======= 国家反诈中心 ======= #
     # 国家反诈中心App
-    # - DOMAIN-SUFFIX,gjfzpt.cn,REJECT # 国家反诈中心域名，全部阻断
-    # - IP-CIDR,219.143.187.136/32,REJECT # 用途未知
+    - DOMAIN-SUFFIX,gjfzpt.cn,REJECT # 国家反诈中心域名，全部阻断
+    - IP-CIDR,219.143.187.136/32,REJECT # 用途未知
     # ======= 抖音 ======= #
     # 抖音
     # 请求域名过多，建议全局代理
