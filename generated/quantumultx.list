@@ -1,5 +1,5 @@
 # 针对部分网站显示IP归属地的分流规则
-# anti-ip-attribution quantumultx.list v0.3.1 c95f05d703d2542a9ec07e72ae1304e80ae4de7a
+# anti-ip-attribution quantumultx.list v0.3.1 73a3ae6c5c632e83ceaf7fe34b1b5cd4df3a0390
 # https://github.com/lwd-temp/anti-ip-attribution
 # QuantumultX分流规则
 DOMAIN,httpdns.bilivideo.com,REJECT
@@ -48,7 +48,6 @@ DOMAIN,c.tieba.baidu.com,IP
 DOMAIN,httpdns.baidu.com,IP
 DOMAIN,httpdns.baidubce.com,IP
 DOMAIN,szshort.weixin.qq.com,IP
-DOMAIN,szminorshort.weixin.qq.com,IP
 DOMAIN,mp.weixin.qq.com,IP
 DOMAIN-SUFFIX,zhihu.com,IP
 IP-CIDR,103.41.167.0/24,IP
