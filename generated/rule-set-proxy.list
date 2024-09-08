@@ -1,5 +1,5 @@
 # 针对部分网站显示IP归属地的分流规则
-# anti-ip-attribution rule-set-proxy.list v0.3.1 0bde691ae1d3f0aade1bf91b395fab909c863fce
+# anti-ip-attribution rule-set-proxy.list v0.3.1 c95f05d703d2542a9ec07e72ae1304e80ae4de7a
 # https://github.com/lwd-temp/anti-ip-attribution
 # 适用于Clash RULE-SET
 DOMAIN-SUFFIX,biliapi.net
@@ -27,7 +27,6 @@ DOMAIN,c.tieba.baidu.com
 DOMAIN,httpdns.baidu.com
 DOMAIN,httpdns.baidubce.com
 DOMAIN,szshort.weixin.qq.com
-DOMAIN,szextshort.weixin.qq.com
 DOMAIN,szminorshort.weixin.qq.com
 DOMAIN,mp.weixin.qq.com
 DOMAIN-SUFFIX,zhihu.com
