@@ -1,5 +1,5 @@
 # 针对部分网站显示IP归属地的分流规则
-# anti-ip-attribution parser.yaml v0.3.1 a1e7fee946cda766b543fc13d2830bb6bdcdc96e
+# anti-ip-attribution parser.yaml v0.3.1 b9146cee9a7b8fce5a22f0881a1d041f44d03436
 # https://github.com/lwd-temp/anti-ip-attribution
 # 适用于Clash for Windows的配置文件预处理功能，详见https://docs.cfw.lbyczf.com/contents/parser.html
 parsers:
@@ -186,6 +186,7 @@ parsers:
     - "DOMAIN,lbs.netease.im,IP\u5F52\u5C5E\u5730"
     - "DOMAIN,wannos.127.net,IP\u5F52\u5C5E\u5730"
     - "DOMAIN,ac.dun.163.com,IP\u5F52\u5C5E\u5730"
+    - "DOMAIN-SUFFIX,music.126.net,IP\u5F52\u5C5E\u5730"
     - "DOMAIN-SUFFIX,laiqukankan.com,IP\u5F52\u5C5E\u5730"
     - "DOMAIN-SUFFIX,music.ntes53.netease.com,IP\u5F52\u5C5E\u5730"
     - "IP-CIDR,101.71.154.241/32,IP\u5F52\u5C5E\u5730"
@@ -225,6 +226,7 @@ parsers:
     - "IP-CIDR,81.70.125.19/32,IP\u5F52\u5C5E\u5730"
     - "IP-CIDR,140.143.177.206/32,IP\u5F52\u5C5E\u5730"
     - "DOMAIN,api.xiaoheihe.cn,IP\u5F52\u5C5E\u5730"
+    - DOMAIN-SUFFIX,amobile.music.tc.qq.com,DIRECT
     - DOMAIN,y.qq.com,DIRECT
     - "DOMAIN-SUFFIX,y.qq.com,IP\u5F52\u5C5E\u5730"
     - "DOMAIN,zonai.skland.com,IP\u5F52\u5C5E\u5730"

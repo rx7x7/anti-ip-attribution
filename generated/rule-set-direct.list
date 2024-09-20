@@ -1,5 +1,5 @@
 # 针对部分网站显示IP归属地的分流规则
-# anti-ip-attribution rule-set-direct.list v0.3.1 a1e7fee946cda766b543fc13d2830bb6bdcdc96e
+# anti-ip-attribution rule-set-direct.list v0.3.1 b9146cee9a7b8fce5a22f0881a1d041f44d03436
 # https://github.com/lwd-temp/anti-ip-attribution
 # 适用于Clash RULE-SET
 DOMAIN-SUFFIX,bilivideo.com
@@ -22,6 +22,7 @@ DOMAIN-SUFFIX,tc-tct1.douyucdn.cn
 DOMAIN-SUFFIX,wsproxy.douyu.com
 DOMAIN-SUFFIX,danmuproxy.douyu.com
 DOMAIN-SUFFIX,img.douyucdn.cn
+DOMAIN-SUFFIX,amobile.music.tc.qq.com
 DOMAIN,y.qq.com
 DOMAIN,china-img.soulapp.cn
 DOMAIN,img.soulapp.cn
