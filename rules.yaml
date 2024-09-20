@@ -315,7 +315,7 @@ config:
     - DOMAIN,lbs.netease.im
     - DOMAIN,wannos.127.net
     - DOMAIN,ac.dun.163.com
-    # - DOMAIN-SUFFIX,music.126.net # 疑似下载服务
+    - DOMAIN-SUFFIX,music.126.net # 音乐资源直连
     - DOMAIN-SUFFIX,laiqukankan.com
     - DOMAIN-SUFFIX,music.ntes53.netease.com
     # telv4.music.ntes53.netease.com
@@ -398,6 +398,7 @@ config:
     - DOMAIN,api.xiaoheihe.cn
     # ======= QQ音乐 ======= #
     # 测试
+    - DOMAIN-SUFFIX,amobile.music.tc.qq.com,DIRECT  # 音乐资源直连
     - DOMAIN,y.qq.com,DIRECT # 图片资源，直连
     - DOMAIN-SUFFIX,y.qq.com # u*.y.qq.com
     # ======= 森空岛 ====== #
