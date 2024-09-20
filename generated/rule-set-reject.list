@@ -1,5 +1,5 @@
 # 针对部分网站显示IP归属地的分流规则
-# anti-ip-attribution rule-set-reject.list v0.3.1 73a3ae6c5c632e83ceaf7fe34b1b5cd4df3a0390
+# anti-ip-attribution rule-set-reject.list v0.3.1 a1e7fee946cda766b543fc13d2830bb6bdcdc96e
 # https://github.com/lwd-temp/anti-ip-attribution
 # 适用于Clash RULE-SET
 DOMAIN,httpdns.bilivideo.com

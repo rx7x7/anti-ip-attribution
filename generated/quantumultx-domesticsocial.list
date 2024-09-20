@@ -1,5 +1,5 @@
 # 针对部分网站显示IP归属地的分流规则
-# anti-ip-attribution quantumultx-domesticsocial.list v0.3.1 73a3ae6c5c632e83ceaf7fe34b1b5cd4df3a0390
+# anti-ip-attribution quantumultx-domesticsocial.list v0.3.1 a1e7fee946cda766b543fc13d2830bb6bdcdc96e
 # https://github.com/lwd-temp/anti-ip-attribution
 # QuantumultX分流规则，策略组名称为DomesticSocial
 DOMAIN,httpdns.bilivideo.com,REJECT
@@ -176,7 +176,6 @@ DOMAIN,api.k.163.com,DomesticSocial
 DOMAIN,lbs.netease.im,DomesticSocial
 DOMAIN,wannos.127.net,DomesticSocial
 DOMAIN,ac.dun.163.com,DomesticSocial
-DOMAIN-SUFFIX,music.126.net,DomesticSocial
 DOMAIN-SUFFIX,laiqukankan.com,DomesticSocial
 DOMAIN-SUFFIX,music.ntes53.netease.com,DomesticSocial
 IP-CIDR,101.71.154.241/32,DomesticSocial
