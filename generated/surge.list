@@ -1,5 +1,5 @@
 # 针对部分网站显示IP归属地的分流规则
-# anti-ip-attribution surge.list v0.3.1 b9146cee9a7b8fce5a22f0881a1d041f44d03436
+# anti-ip-attribution surge.list v0.3.1 dae3f8ae4090f50eb004396b9e903fef8ac5d29f
 # https://github.com/lwd-temp/anti-ip-attribution
 # Surge分流规则
 DOMAIN,httpdns.bilivideo.com,REJECT
@@ -47,7 +47,6 @@ DOMAIN,httpsdns.baidu.com
 DOMAIN,c.tieba.baidu.com
 DOMAIN,httpdns.baidu.com
 DOMAIN,httpdns.baidubce.com
-DOMAIN,szshort.weixin.qq.com
 DOMAIN,mp.weixin.qq.com
 DOMAIN-SUFFIX,zhihu.com
 IP-CIDR,103.41.167.0/24,no-resolve
